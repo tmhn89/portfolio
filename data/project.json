@@ -1,0 +1,164 @@
+{
+    "projects": [        
+        {
+            "id": 4,
+            "name": "Homelette",
+            "year": "2014",
+            "techniques": ["Mockup", "Javascript", "HTML", "CSS"],
+            "team": [
+                {
+                    "name": "Isha van Baar",
+                    "url": "https://www.facebook.com/isha.vanbaar"
+                }
+            ],
+            "description": "A small web service to help planning dinner parties. This is the project of course DH2641 - Interaction Programming at KTH",
+            "screenshot": [],
+            "link": "http://n-inh.com/dinner/"
+        },
+        {
+            "id": 5,
+            "name": "A Small Group Making Tool",
+            "year": "2015",
+            "techniques": ["Javascript", "HTML", "CSS"],
+            "team": [],
+            "description": "A tool to make groups based on various skill level of class participant. This is the first assignment of course DH2321 - Information Visualization at KTH",
+            "screenshot": [],
+            "link": "http://n-inh.com/ivis15/project1/"
+        },
+        {
+            "id": 6,
+            "name": "Languages at home",
+            "year": "2015",
+            "techniques": ["D3.js", "Javascript", "HTML", "CSS"],
+            "team": [],
+            "description": "A small chart with interaction, used to visualize the relationship between some selected countries and the languages they speak at home. This is the second assignment of course DH2321 - Information Visualization at KTH ",
+            "screenshot": [],
+            "link": "http://n-inh.com/ivis15/project2/"
+        },
+        {
+            "id": 7,
+            "name": "Ambient Visualization of energy",
+            "year": "2015",
+            "techniques": ["D3.js", "Javascript", "HTML", "CSS"],
+            "team": [],
+            "description": "Radial graph represent energy consumption of two selected household within a year. This is the third assignment of course DH2321 - Information Visualization at KTH",
+            "screenshot": [],
+            "link": "http://n-inh.com/ivis15/project3/"
+        },
+        {
+            "id": 8,
+            "name": "UBI Global",
+            "year": "2014",
+            "techniques": ["Wordpress", "PHP", "HTML", "CSS", "jQuery"],            
+            "team": [
+                {
+                    "name": "Ali Amin",
+                    "url": "http://linkedin.com/in/aliamin86/"
+                },
+                {
+                    "name": "An Nguyen-Johansson",
+                    "url": "https://linkedin.com/in/annguyenjohansson"
+                }
+            ],
+            "description": "Official website of UBI Global. The site also hosts the company's online services like application, meeting booking, and online store.",
+            "screenshot": "preview-ubiglobal",
+            "link": "http://ubi-global.com/"
+        },
+        {
+            "id": 9,
+            "name": "UBI Awards",
+            "year": "2015",
+            "techniques": ["Wordpress", "PHP", "HTML", "CSS", "jQuery"],            
+            "team": [
+                {
+                    "name": "Ali Amin",
+                    "url": "http://linkedin.com/in/aliamin86/"
+                },
+                {
+                    "name": "An Nguyen-Johansson",
+                    "url": "https://linkedin.com/in/annguyenjohansson"
+                }
+            ],
+            "description": "A seperate website belongs to UBI Global, which provide the information about the series of Business Incubator recognition events around the world hosted by the company.",
+            "screenshot": "preview-ubiaward",
+            "link": "http://awards.ubi-global.com/"
+        },
+        {
+            "id": 10,
+            "name": "Inicio",
+            "year": "2015",
+            "techniques": ["PHP", "HTML", "CSS", "jQuery"],
+            "team": [
+                {
+                "id": "4",
+                "name": "Hai Dinh Tuan",
+                "url": "https://linkedin.com/in/haidinhtuan"
+            },
+            {
+                "id": "5",
+                "name": "Midas Nouwens",
+                "url": "https://se.linkedin.com/pub/midas-nouwens/69/16b/b20"
+            },
+            {
+                "id": "6",
+                "name": "Nora Tejeda Hernández",
+                "url": "https://linkedin.com/in/noratejedahdz/en"
+            },
+            {
+                "id": "7",
+                "name": "Mikaela Illanes",
+                "url": "https://se.linkedin.com/pub/mikaela-illanes/63/a91/9a7"
+            }],
+            "description": "A website to promote the business idea of Inicio - a program providing children with hand-on experiences before high school. This is the project of course ME2073 - Business Development Lab of Entrepreneurship Engineers at KTH",
+            "screenshot": "preview-inicio.jpg",
+            "link": "http://myinicio.com/"
+        },
+        {
+            "id": 11,
+            "name": "BikeX",
+            "year": "2015",
+            "techniques": ["HTML", "CSS", "MaterializeCSS", "fullpage.js", "jQuery"],
+            "team": [],
+            "description": "An one page website to promote the product named BikeX. This is the training excercise of Frantic.",
+            "screenshot": "preview-bikex.jpg",
+            "link": "http://n-inh.com/bikex/"
+        }
+    ],
+    "team": [
+        {
+            "id": "1",
+            "name": "Isha van Baar",
+            "url": "https://www.facebook.com/isha.vanbaar"
+        },
+        {
+            "id": "2",
+            "name": "Ali Amin",
+            "url": "http://linkedin.com/in/aliamin86/"
+        },
+        {
+            "id": "3",
+            "name": "An Nguyen-Johansson",
+            "url": "https://linkedin.com/in/annguyenjohansson"
+        },
+        {
+            "id": "4",
+            "name": "Hai Dinh Tuan",
+            "url": "https://linkedin.com/in/haidinhtuan"
+        },
+        {
+            "id": "5",
+            "name": "Midas Nouwens",
+            "url": "https://se.linkedin.com/pub/midas-nouwens/69/16b/b20"
+        },
+        {
+            "id": "6",
+            "name": "Nora Tejeda Hernández",
+            "url": "https://linkedin.com/in/noratejedahdz/en"
+        },
+        {
+            "id": "7",
+            "name": "Mikaela Illanes",
+            "url": "https://se.linkedin.com/pub/mikaela-illanes/63/a91/9a7"
+        }
+    ]
+}

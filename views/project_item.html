@@ -1,0 +1,14 @@
+<div class="row container center-align">
+    <h5>{{ selected.name }} ({{selected.year}})</h5>
+    <div class="row"></div>
+    <h6>Techniques</h6>
+    <p>{{ printSkill(selected.techniques) }}</p>    
+    <h6 ng-show="selected.team.length > 0">Team</h6>
+    <p><div class="friend" ng-repeat="friend in selected.team"><a href="{{ friend.url }" target="_blank">{{friend.name}}</a></div></p>
+    <h6>Description</h6>
+    <p>{{ selected.description }}</p>
+    <div class="row"></div>
+    <h6>
+        <small class="right-btn"><a href="{{ selected.link }}" target="_blank" class="button">view site</a></small>
+    </h6>
+</div>

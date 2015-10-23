@@ -1,0 +1,68 @@
+{
+    "educations": [
+        {
+            "school": "Aalto University",
+            "location": "Helsinki, Finland",
+            "year": "2015 - ongoing",
+            "program": "Human Computer Interaction & Design"
+        },
+        {
+            "school": "KTH Royal Institute of Technology",
+            "location": "Stockholm, Sweden",
+            "year": "2014 - 2015",
+            "program": "Human Computer Interaction & Design"
+        },
+        {
+            "school": "FPT University",
+            "location": "Hanoi, Vietnam",
+            "year": "2007 - 2011",
+            "program": "Software Engineering"
+        }
+    ],
+    "experiences": [
+        {
+            "company": "UBI Global",
+            "location": "Stockholm, Sweden",
+            "year": "2014 - 2015",
+            "role": "Developer"
+        },
+        {
+            "company": "Framgia Vietnam",
+            "location": "Hanoi, Vietnam",
+            "year": "2013 - 2014",
+            "role": "Developer"
+        },
+        {
+            "company": "Sapling Co. Ltd.",
+            "location": "Hanoi, Vietnam",
+            "year": "2011 - 2013",
+            "role": "Co-Founder"
+        }
+    ],
+    "skills": [
+        {
+            "category": "Programming Languages",
+            "skill": ["HTML5", "CSS3", "Javascript", "PHP", "C#", "Java", "Ruby", "Python"]
+        },        
+        {
+            "category": "Libraries",
+            "skill": ["jQuery", "D3.js", ""]
+        },
+        {
+            "category": "Frameworks",
+            "skill": ["Bootstrap", "MaterializeCSS", "AngularJS", "CakePHP", "Ruby on Rails", "Django"]
+        },
+        {
+            "category": "Databases",
+            "skill": ["MySQL", "MSSQL"]
+        },
+        {
+            "category": "Management Tools",
+            "skill": ["Git", "SVN"]
+        },
+        {
+            "category": "Design Tools",
+            "skill": ["Adobe Photoshop", "Adobe Illustrator"]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ninh Truong</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet Import -->    
+    <link rel="stylesheet" href="css/materialize.min.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons"  />
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/ngDialog.min.css"/>
+    <link rel="stylesheet" href="css/ngDialog-custom-width.css"/>
+    <link rel="stylesheet" href="css/ngDialog-theme-plain.min.css"/>
+    <link rel="stylesheet" href="css/custom.css"/>    
+</head>
+<body ng-app="portfolioApp" >
+    <div class="section home" style="position: relative">
+        <div class="row right-align nameplate">
+            <div class="col s12">                    
+                <h1>Ninh Truong</h1>
+                <h5 class="sub-title">Front-end Developer</h5>
+                <div class="contact">
+                    <ul>
+                        <li><a href="mailto:tmhn89@gmail.com"><i class="fa fa-lg fa-envelope-o"></i></a></li>
+                        <li><a href="https://linkedin.com/in/tmhn89"><i class="fa fa-lg fa-linkedin-square"></i></a></li>
+                        <li><a href="https://facebook.com/tmhn89"><i class="fa fa-lg fa-facebook-square"></i></a></li>
+                        <li><a href="https://instagram.com/tmhn89"><i class="fa fa-lg fa-instagram"></i></a></li>
+                    </ul>
+                </div>                    
+            </div>            
+        </div>
+        <div id="menu" class="menu" ng-controller="navCtrl">            
+            <a ng-class="getClass('/about')" href="#/about">About me</a> | 
+            <a ng-class="getClass('/projects')" href="#/projects">My projects</a>
+        </div>
+    </div>   
+    <div id="content" class="section container" ng-view ng-controller="homeCtrl"></div>    
+</body>
+    <!-- Script Import -->
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>    
+    <script src="js/lib/ngDialog.min.js"></script>    
+    <script src="js/lib/angular-scroll.min.js"></script>    
+
+    <!-- Application Scripts -->    
+    <script src="js/app.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/controller/navController.js"></script>
+    <script src="js/controller/aboutController.js"></script>
+    <script src="js/controller/projectController.js"></script>
+    <script src="js/custom.js"></script>
+</html>

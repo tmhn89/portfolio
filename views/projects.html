@@ -1,0 +1,22 @@
+<h5 class="section-title center-align">My Projects</h5>
+<ul class="row projects">
+    <li class="col s12 m4 project-wrap" ng-repeat="project in projects | orderBy: '-id'">        
+        <div class="flipbox" ng-class="{flip: hover}" ng-mouseenter="hover = true" ng-mouseleave="hover = false">
+          <div class="front">
+            <img src="{{ prjThumbnail(project.name) }}">
+          </div>
+          <div class="back">
+            <div class="box-content">
+                <h6>{{ project.name }}</h6>
+                <!-- <a ng-href="#/projects" ng-click="selectProject(project.id)" class="box-link"><small>More Information</small></a> -->
+                <a href="" ng-click="openDetail(project.id)" class="box-link button">More Info</a>
+            </div>
+          </div>
+        </div>        
+    </li>
+</ul>
+
+<div class="row center-align" ng-controller="navCtrl">
+    <a class="button" ng-click="scrollTop()" href="">To Top</a>
+    <div class="row"></div>
+</div>

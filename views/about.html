@@ -1,0 +1,26 @@
+<div class="about">
+    <div class="row center-align">
+        <h5 class="section-title">Experience</h5>
+        <ul>
+            <li ng-repeat="exp in experiences">
+                <b>{{ exp.role }}</b> - <span>{{ exp.company }}</span><br>
+                <span>{{ exp.year }}</span> | <span class="location">{{ exp.location }}</span>                
+            </li>
+        </ul>
+    </div>
+    <div class="row center-align">
+        <h5 class="section-title">Education</h5>
+        <ul>
+            <li ng-repeat="edu in educations">
+                <b>{{ edu.school }} </b><br>
+                <span class="program">{{ edu.program }}</span><br>
+                </span>{{ edu.year }}</span> | <span class="location">{{ edu.location }}</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row center-align" ng-controller="navCtrl">
+    <a class="button" ng-click="scrollTop()" href="">To Top</a>
+    <div class="row"></div>
+</div>
