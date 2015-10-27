@@ -4,7 +4,8 @@
         <ul>
             <li ng-repeat="exp in experiences">
                 <b>{{ exp.role }}</b> - <span>{{ exp.company }}</span><br>
-                <span>{{ exp.year }}</span> | <span class="location">{{ exp.location }}</span>                
+                <span>{{ exp.year }}</span> | <span class="location">{{ exp.location }}</span><br>
+                <span ng-bind-html="exp.description | Unsafe" class="description"></span>
             </li>
         </ul>
     </div>

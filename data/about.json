@@ -24,19 +24,22 @@
             "company": "UBI Global",
             "location": "Stockholm, Sweden",
             "year": "2014 - 2015",
-            "role": "Developer"
+            "role": "Developer",
+            "description": "Build and manage the company’s official website and online services."
         },
         {
             "company": "Framgia Vietnam",
             "location": "Hanoi, Vietnam",
             "year": "2013 - 2014",
-            "role": "Developer"
+            "role": "Developer",
+            "description": "Create and manage the internal lunch order system. <br/> Develop and maintain a web-based mobile game for the Japanese market."
         },
         {
             "company": "Sapling Co. Ltd.",
             "location": "Hanoi, Vietnam",
             "year": "2011 - 2013",
-            "role": "Co-Founder"
+            "role": "Co-Founder",
+            "description": "Build front end pages for a web-based school management system. <br/> Manage the company’s finance and administrative procedures."
         }
     ],
     "skills": [

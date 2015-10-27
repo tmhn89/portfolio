@@ -223,3 +223,8 @@ a.button:hover {
   color: #888;
   font-weight: bold;
 }
+.about .description {
+  font-style: italic;
+  font-size: 90%;
+  color: #888;
+}
