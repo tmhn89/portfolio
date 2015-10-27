@@ -17,7 +17,7 @@ app.controller('projectCtrl', function($scope, $http, $filter, ngDialog, $docume
     };
 
     var thumbnailRoot = 'assets/img/preview-';
-    $scope.prjThumbnail = function(projectName) {            
+    $scope.prjThumbnail = function(projectName) {
         var imglink = projectName.replace(/ /g, '_').toLowerCase();
         return thumbnailRoot + imglink + '.jpg';
     };
